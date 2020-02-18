@@ -19,9 +19,11 @@ public class ICanGuess : MonoBehaviour
     minNumber = 1;
     maxNumber = 1000;
     guess = Random.Range(minNumber, maxNumber + 1);
-    if (SceneManager.GetActiveScene().name == "Game Scene")
+    
     {
       Progress();
+      DontDestroyOnLoad(gameObject);
+      Debug.Log("Start script" + gameObject);
     }
   }
 
