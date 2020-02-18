@@ -26,7 +26,8 @@ public class ResultScene : MonoBehaviour
        
         Text[] allText = FindObjectsOfType<Text>();
         for (int i = 0; i < allText.Length; i++) {
-            allText[i].text = "Text" + i };
+            allText[i].text = "Text" + i;
+        };
     
         Destroy(magicNumbers.gameObject); //destroy gameobject
     }

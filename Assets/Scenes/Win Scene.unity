@@ -130,8 +130,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 84120396}
-  - component: {fileID: 84120395}
-  - component: {fileID: 84120394}
   - component: {fileID: 84120393}
   m_Layer: 0
   m_Name: GameObject
@@ -152,40 +150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f008c569c83e5c5798c004504ef8c80e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &84120394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 84120392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb3ad06f804d516dd8f81bed8cc6441c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  guess: 49
-  minNumber: 0
-  maxNumber: 0
-  count: 0
-  qustion: {fileID: 1570743605}
---- !u!114 &84120395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 84120392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb3ad06f804d516dd8f81bed8cc6441c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  guess: 0
-  minNumber: 0
-  maxNumber: 0
-  count: 0
-  qustion: {fileID: 0}
 --- !u!4 &84120396
 Transform:
   m_ObjectHideFlags: 0
@@ -243,7 +207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd1f6704b3475d54e83b937736cfcf1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resultText: {fileID: 0}
+  resultText: {fileID: 1570743605}
   text: {fileID: 0}
 --- !u!1 &559310679
 GameObject:
