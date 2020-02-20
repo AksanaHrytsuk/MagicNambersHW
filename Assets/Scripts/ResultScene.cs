@@ -22,12 +22,11 @@ public class ResultScene : MonoBehaviour
 
         ICanGuess magicNumbers = FindObjectOfType<ICanGuess>();
         int number = magicNumbers.guess;
-        resultText.text = "Ваше число?" + number;
+        resultText.text = "Ваше число:" + number + "?";
        
-        Text[] allText = FindObjectsOfType<Text>();
-        for (int i = 0; i < allText.Length; i++) {
-            allText[i].text = "Text" + i;
-        };
+        //Text[] allText = FindObjectsOfType<Text>();
+        //for (int i = 0; i < allText.Length; i++) {
+        //};
     
         Destroy(magicNumbers.gameObject); //destroy gameobject
     }
