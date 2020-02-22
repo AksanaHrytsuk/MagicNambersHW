@@ -22,7 +22,7 @@ public class ResultScene : MonoBehaviour
 
         ICanGuess magicNumbers = FindObjectOfType<ICanGuess>();
         int number = magicNumbers.guess;
-        resultText.text = "Ваше число:" + number + "?";
+        resultText.text = "Is your number: " + number + "?" + " I have won!" + " High five!";
        
         //Text[] allText = FindObjectsOfType<Text>();
         //for (int i = 0; i < allText.Length; i++) {
